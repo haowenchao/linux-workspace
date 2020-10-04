@@ -5,6 +5,13 @@
 1. cscope
 2. global
 3. ctags
+4. gtags
+
+### How to install gtags
+
+1. Download source code from GNU global home page(www.gnu.org/software/global/download.html)
+2. extract downloaded package
+3. refer to ```INSTALL``` in extracted files
 
 ## vim 的配置
 
