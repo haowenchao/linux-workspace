@@ -1,0 +1,10 @@
+[user]
+	name = Wenchao Hao
+	email = haowenchao22@gmail.com
+[core]
+	editor = vim
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
+	smtpuser = haowenchao22@gmail.com

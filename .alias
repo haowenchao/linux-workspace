@@ -1,0 +1,24 @@
+PS1="\[\e[32m\]\u@\w:\$ \[\e[m\]"
+#PS1="\[\e[32m\]\u@aliyun\w:\$ \[\e[m\]"
+
+alias cov='find ./ -type f -exec dos2unix {} \;'
+alias fa='find ./ -type f | xargs grep -ns'
+alias fc='find ./ -name \*.c | xargs grep -ns'
+alias fh='find ./ -name \*.h | xargs grep -ns'
+alias fs='find ./ -name \*.c -o -name \*.h -o -name \*.s -o -name \*.S | xargs grep -ns'
+alias indent='indent -npcs -npro -kr -i8 -ts8 -sob -l80 -ss -ncs -cp1'
+alias ll='ls -l'
+alias ls='ls -F --color=auto --show-control-chars'
+alias wcl='find ./ -name \*.c -o -name \*.h | xargs wc -l'
+alias rm='rm -rf'
+alias gdb='gdb-multiarch'
+alias cls='printf "\033c"'
+
+export ARCH=arm64
+export CROSS_COMPILE=aarch64-linux-gnu-
+
+# export ARCH=arm
+# export CROSS_COMPILE=arm-linux-gnueabi-
+export aliyun=haowenchao@47.105.206.36
+export home_aliyun=haowenchao@47.105.206.36:/home/haowenchao
+
